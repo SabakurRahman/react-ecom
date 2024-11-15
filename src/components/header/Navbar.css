@@ -43,12 +43,12 @@
 
 .cart-trolley {
   position: relative;
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 
 .cart-total--item {
-  width: 1.3rem;
-  height: 1.3rem;
+  width: 1.4rem;
+  height: 1.4rem;
   position: absolute;
   background-color: #ff6347; /* Replace with your helper color */
   color: black;

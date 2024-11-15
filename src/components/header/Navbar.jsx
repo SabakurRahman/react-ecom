@@ -2,8 +2,10 @@ import React from "react";
 
 import { NavLink } from "react-router-dom";
 
-import "./Navabar.css";
+import "./Navbar.css";
 import { FiShoppingCart } from "react-icons/fi";
+
+import { CgClose, CgMenu } from "react-icons/cg";
 
 export const Navbar = () => {
   return (
@@ -37,6 +39,13 @@ export const Navbar = () => {
             </NavLink>
           </li>
         </ul>
+        <div className="mobile-navbar-btn">
+          <CgMenu name="menu-outline" className="mobile-nav-icon" />
+          <CgClose
+            name="close-outline"
+            className="mobile-nav-icon close-outline"
+          />
+        </div>
       </div>
     </nav>
   );
