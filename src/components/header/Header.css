@@ -1,0 +1,13 @@
+.main-header {
+  padding: 0 4.8rem;
+  height: 4rem;
+  background-color: #f8f8f8; /* Replace with your actual background color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  height: 2rem;
+}
